@@ -37,4 +37,28 @@ Many larger residential units and commercial buildings will have their own trans
 
 ![Weather head](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Weatherhead.JPG/256px-Weatherhead.JPG)
 
-**Meters** are where the grid ends and the customer's own electrical network begins; this is where our job ends as well. Depending on the nature of the building(s) at an address, there may be multiple meters. For example, many smaller apartment buildings have one meter for each unit, so that each renter can pay for their own usage separately.
+**Meters** are where the grid ends and the customer's own electrical network begins; this is where our job ends as well. Depending on the nature of the building(s) at an address (single family home, duplex, apartment building, commercial), there may be multiple meters. For example, many smaller apartment buildings have one meter for each unit, so that each renter can pay for their own usage separately.
+
+![Smart meter](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Elster_A3_Alpha_Type_A30_electricity_meter_collector.jpeg/256px-Elster_A3_Alpha_Type_A30_electricity_meter_collector.jpeg)
+
+![Smart meter bank](https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Electric-meter-boxes-4625.jpg/256px-Electric-meter-boxes-4625.jpg)
+
+## Mapping the distribution grid
+
+Griddly is a project to map every utility pole, transformer, and power line in the distribution grid - first in the US, and eventually on a global basis. In some ways, this is a really big task: there are between 100 and 200 million utility poles in the United States, for example. In our big data era, though, this amount of data is barely even a blip. 
+
+Both the geometry (i.e., coordinates and distances) and topology (connectivity) of the grid network matter - and both may appear complex at casual observation. But there is a saving grace: the network architecture is both *regular* and *shallow*, meaning that local observations can be straightforwardly used to construct a complete and accurate map of the system as a whole.
+
+What do we need to do to map the distribution grid?
+
+1. Trace the feeder lines out of every substation, from pole to pole, including capacitor banks and voltage regulators
+2. Capture the size and connection point of every distribution transformer
+3. Identify the addresses and meters that are served by each distribution transformer
+
+While there are lots of each of these things to be observed and captured, there aren't that many *kinds* of things to capture; what's more, these objects are connected in very stereotyped structures.
+
+## Making the data available
+
+## FAQ
+
+## Menagerie
