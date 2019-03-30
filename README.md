@@ -21,10 +21,11 @@ For our purposes, the most important property of a substation is its output volt
 
 Feeders carry whatever voltage their substation provides - therefore these distribution voltages also range from 3kV to 35kV.
 
-| --- | ---
-| **Distribution transformers** step down the voltage carried by primary distribution lines to that used in the secondary distribution lines. In residential and other low-density areas, most of these are found as cylinders at the top of utility poles; in other cases they are mounted on concrete pads or in vaults under metal plates. | ![Pole mounted transformer](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Polemount-singlephase-closeup.jpg/256px-Polemount-singlephase-closeup.jpg)
+**Distribution transformers** step down the voltage carried by primary distribution lines to that used in the secondary distribution lines. In residential and other low-density areas, most of these are found as cylinders at the top of utility poles; in other cases they are mounted on concrete pads or in vaults under metal plates. 
 
-The most important property of a distribution transformer is its voltage-amperes (VA) rating, which often appears stenciled on its side. The higher the VA rating, the bigger the load the transformer can support. A little 15 KVA transformer will serve a few houses, while a larger 50 KVA unit is common for small and medium apartment buildings.
+The most important property of a distribution transformer is its voltage-amperes (VA) rating, which often appears stenciled on its side. The higher the VA rating, the bigger the load the transformer can support. A little 15 KVA transformer will serve a few houses, while a larger 50 KVA unit is common for small and medium apartment buildings. 
+
+![Pole mounted transformer](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Polemount-singlephase-closeup.jpg/256px-Polemount-singlephase-closeup.jpg)
 
 Many larger residential units and commercial buildings will have their own transformer enclosed in a metal cabinet and mounted on a concrete pad on the property. 
 
