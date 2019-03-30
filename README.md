@@ -1,7 +1,41 @@
-# griddly
+# Griddly
 What's up nerds.
 
-One reason the distribution grid is fascinating is because of how its geometry and topology interact. Both are important in their own right, and they interact in some interesting ways.
+The electric grid is both amazing and shabby, finely tuned and haphazard. It is also uncharted: even the organizations that own and maintain its various pieces do not have a clear picture of the grid they 
+
+One reason the distribution grid is fascinating is how its geometry and topology relate. Both are important in their own right, and they interact in some interesting ways. Geometry matters because distance matters in electric transmission - power is lost as electricity is conducted, and the infrastructure that is efficient for long-distance transport is very impractical for local delivery. The topology is also crucial, because it determines everything from reliability to flexibility to construction and maintenance costs.
+
+**Griddly** is a collective project to collect and continuously maintain a complete map of the electricity distribution grid - the part of the grid that typically carries power from a substation to each location or address that receives electricity service.
+
+* **Why do we need to know so much about the distribution grid?**
+
+    In other words, why is Griddly worth the effort? The answer to this question can be divided into two buckets: existing applications that we already know about, and applications that will emerge as a consequence of the data being available. While the first category of uses is easier to talk about, it is the second bucket that we believe will bring the most important impacts.
+    
+    To anchor the discussion, consider the problem of [hosting capacity analysis](https://www.utilitydive.com/news/why-are-the-newest-distribution-system-buzzwords-hosting-capacity-analysis/514219/) - basically, the task of determining how much more generation and storage each bit of the grid can handle. This layer of information would inform a huge number of decisions about where to build new solar, where to add batteries, and so on.
+    
+    > To DER [Distributed Energy Resource] advocates, [hosting capacity analysis] is the holy grail and should be implemented yesterday because it opens access to right-now marketing.
+
+    But HCA requires very granular understanding of the distribution system, and even when utilities have this information (which they may not), they are reluctant to share - even when required to by regulation.
+
+* **How is the griddly data licensed? Is the data free? Open?**
+
+    The Griddly data is dual-licensed. For research, academic, NGO, philanthropic, and non-profit work, the data is available under the Creative Commons Attribution Non-commercial Share-Alike license. While pricing for this kind of usage is TBD, the intention in these cases is simply to cover the costs of delivering the data.
+    
+    For commercial use, the data is covered under a conventional proprietary license. This license permits a broad range of business uses, though it does prohibit reselling of the data.
+
+    Griddly is designed to balance two requirements. First, we want the distribution network data to be available and useful for as many applications as possible. In many ways, Griddly was born from frustration with the fact that this level of grid data is typically hidden away in the computer and paper records of individual utilities; the last thing we want to do is to replicate that state of affairs.
+    
+    But second, let's acknowledge that even the most open dataset does no good if it is not complete and of high quality. So any collection and delivery system for this data must be able to motivate the significant effort it will take to collect, verify, and maintain it. 
+
+* **Why would people contribute observations to Griddly?**
+
+    Because it's fun and satisfying, and because you get paid. Coloring in uncharted regions of the grid is oddly rewarding for the right kind of person.
+
+
+
+* Distribution 101
+* Gridspotter's Guide
+* Design and Development Guide
 
 ## Distribution grid 101
 
@@ -60,5 +94,15 @@ While there are lots of each of these things to be observed and captured, there 
 ## Making the data available
 
 ## FAQ
+
+* What are the risks and potential downsides of this project? What is the worst that could happen?
+
+    > Your scientists were so preoccupied with whether or not they could, they didn’t stop to think if they should.
+
+* Why does griddly have a commercial component? Why not adopt a fully open model like OpenStreetMap or Wikipedia?
+
+* Can't Google just do this?
+
+* Isn't this a perfect job for computer vision and deep learning? Why do we need people to go out and collect the data at all?
 
 ## Menagerie
