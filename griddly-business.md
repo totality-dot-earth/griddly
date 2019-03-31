@@ -19,11 +19,11 @@ Note that these distributions are calculated on a per-datapoint basis and summed
 
 ## Observation Aging and Refresh
 
-10 slots, each corresponding to six months (so 5 years total)
-On initial observation, all slots go to observer
-On validation, slots 2 and 4 go to validator (can be observer if self-certifying)
-On correction, it is as if the observation was newly-made: all slots are given to the corrector, and validation is re-opened
-Every six months, slots shift left and slot 1 is removed; slot 10 is filled by the first to re-confirm, and remains with the observer until that refresh observation has occurred
+* 10 slots, each corresponding to six months (so 5 years total)
+* On initial observation, all slots go to observer
+* On validation, slots 2 and 4 go to validator (can be observer if self-certifying)
+* On correction, it is as if the observation was newly-made: all slots are given to the corrector, and validation is re-opened
+* Every six months, slots shift left and slot 1 is removed; slot 10 is filled by the first to re-confirm, and remains with the observer until that refresh observation has occurred
 
 ## Reputation
 
