@@ -1,7 +1,7 @@
 # Griddly
 What's up nerds.
 
-The electric grid is both amazing and shabby, finely tuned and haphazard. It is also uncharted: even the organizations that own and maintain its various pieces do not have a clear picture of the grid they 
+The electric grid is both amazing and shabby, finely tuned and haphazard. It is also uncharted: even the organizations that own and maintain its various pieces do not have a clear picture of the grid they oversee.
 
 One reason the distribution grid is fascinating is how its geometry and topology relate. Both are important in their own right, and they interact in some interesting ways. Geometry matters because distance matters in electric transmission - power is lost as electricity is conducted, and the infrastructure that is efficient for long-distance transport is very impractical for local delivery. The topology is also crucial, because it determines everything from reliability to flexibility to construction and maintenance costs.
 
