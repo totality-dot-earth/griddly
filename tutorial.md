@@ -33,6 +33,27 @@ Pole-top transformers are very obvious, but in some cases it can be a bit tricky
 2. Enter the transformer's size rating in KVA. This is sometimes stenciled in large numbers on the side of the cylinder, and other times must be guessed from the size. If the size is guessed, be sure to check the `Size Unsure` box.
 3. In the US, three-phase transformers are usually created by grouping three single-phase transformers of the same size. If this is the case, enter all three transformers as described here, and additionally check the `Grouped` box for each.
 
-## Add High Voltage / Primary Lines
+## Add Lines
 
+Now we add connections to any poles that were previously added to the system, whether those observations occurred during this collection session or a previous one.
+
+1. Add 
+
+## Tricky Parts
+
+### Is this a primary or secondary line?
+
+Sometimes it can be tough to tell whether lines are primary (high voltage) or secondary (low voltage). Oddly, this often happens on the simplest poles - i.e., those that host a single set of lines, and do not have transformers or service drops to provide clues. Here are a couple ways to disambiguate:
+
+1. Look for the signs. In at least some jurisdictions, all primary lines must be marked with a yellow "High Voltage" sign. If you see one on a crossbar, then those are primaries. If you see such a sign on the pole itself, then all lines _above_ the sign are primaries and any below are secondaries.
+
+2. Check the size and style of insulator. Primary lines typically have larger insulators than secondaries, and this can be particularly helpful once you're used to the equipment that is used in a certain area.
+
+3. Trace the line back to another, more informative pole. Because secondaries can only run a few hundred yards at most, you shouldn't have to look too far to find a pole that hosts both primary and secondary lines; then it's just a matter of tracing these to the confusing pole.
+
+### What size is this transformer?
+
+
+
+### How many separate connections are on this pole?
 
