@@ -53,7 +53,14 @@ Sometimes it can be tough to tell whether lines are primary (high voltage) or se
 
 ### What size is this transformer?
 
+Transformers are rated according to the kilovolt-amperes they can deliver - this is like a wattage rating for alternating current. For the most part, this rating varies directly with the volume of the transformer, though there are some variations. If the rating is not indicated on the side of the transformer, or the markings are too faded to read reliably, it may be necessary to guesstimate the size.
 
+1. Use your judgment and experience. Once you've recorded a few dozen transformers, you'll have a pretty good sense of the approximate sizes that correspond to each rating.
+
+2. Think about the context. You may have noticed patterns in the neighborhood, or common sizes that show up frequently. You can also use the number and size of the service drops - the higher the potential load on the transformer, the higher its rating will need to be.
 
 ### How many separate connections are on this pole?
 
+One of the trickiest aspects of reading poles is determining which lines are connected and which aren't. Often, the patch cables that tie lines together can be easy to miss, or it can be hard to ascertain from the ground which wires are being bridged.
+
+1. Move around the pole. Often, a different angle can make all the difference.
